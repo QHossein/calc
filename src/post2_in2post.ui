@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Post2_In2Post</class>
+ <widget class="QDialog" name="Post2_In2Post">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>574</width>
+    <height>247</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>574</width>
+    <height>247</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>574</width>
+    <height>247</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Show Step</string>
+  </property>
+  <widget class="QLabel" name="label_stack">
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>99</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Stack</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_res">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>173</y>
+     <width>31</width>
+     <height>10</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Result</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lneExp">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>8</y>
+     <width>491</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_exp">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>17</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Expression</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnGo">
+   <property name="geometry">
+    <rect>
+     <x>264</x>
+     <y>212</y>
+     <width>71</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Go</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="stackTable">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>70</y>
+     <width>491</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>Stack</string>
+    </property>
+   </row>
+  </widget>
+  <widget class="QLineEdit" name="lneRes">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>160</y>
+     <width>491</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
